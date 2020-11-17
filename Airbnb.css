@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Vacation Rentals, Homes, Experiences & Places - Airbnb</title>
+  <link rel="stylesheet" href="C:\Users\Rares\Desktop\html\final\stylesheet.css">
+</head>
+<body>
+  <div id="policies">
+    <p>
+      Get the latest on our COVID-19 response and cancellation policies.
+      <a href="https://www.airbnb.com/resources/hosting-homes/t/coronavirus-updates-34">Learn more</a>
+    </p>
+  </div>
+
+  <nav>
+      <div class="menu">
+        <img src="C:\Users\Rares\Desktop\html\final\sigla.jpg" alt="Airbnb" height="70" width="auto" />
+        <ul class="bar">
+          <li><img src="C:\Users\Rares\Desktop\html\final\globe.png" alt="globe" height="25" width="auto" />
+            <ul>
+              <li><a href="https://www.airbnb.com/account-settings/language">English US</a></li>
+              <li><a href="https://www.airbnb.com/account-settings/currency">lei RON</a></li>
+            </ul>
+          </li>
+          <li><a href="https://www.airbnb.com/host/homes">Host your home</a></li>
+          <li><a href="https://www.airbnb.com/d/onlinehost">Host an experience</a></li>
+          <li><a href="https://www.airbnb.com/help/home">Help</a></li>
+          <li><a href="https://www.airbnb.com/login">Log In</a></li>
+          <li><a href="https://www.airbnb.com/signup_login">Sign Up</a></li>
+      </div>
+        
+      <div class="tab"> <!--https://www.w3schools.com/howto/howto_js_tabs.asp-->
+        <button class="tablinks" onclick="opentab(event,'Places')" id="places">Places to stay</button>
+        <button class="tablinks" onclick="openCity(event, 'London')">London</button>
+        <button class="button">Monthly stays</button>
+        <button class="button">Experiences</button>
+        <button class="button">Online Experiencer NEW</button>
+      </div>
+      <div id="Places" class="tabcontent">
+        <h1>here</h1>
+      </div>
+        <div id="London" class="tabcontent">
+  <h3>London</h3>
+  <p>London is the capital city of England.</p>
+</div>
+ </nav>
+   
+ <main>
+     <p id="subtitle">We may be apart, but we'll get through this together.</p>
+     <div id="art">
+       <div>
+          <a href="https://www.airbnb.com/s/experiences/online">
+            <img src="C:\Users\Rares\Desktop\html\final\online-experiences.jpg" alt="Online experiences" height="230px" width="auto" />
+          </a>
+          <p>Online Experiences</p>
+          <p>Unique activities we can do together, led by a world of hosts.</p>
+       </div>
+        <div id="pad">
+          <a href="https://www.airbnb.com/s/homes?refinement_paths%5B%5D=%2Fhomes%2Fsection%2FNEARBY_LONG_TERM_STAY_LISTINGS&search_type=section_navigation">
+             <img src="C:\Users\Rares\Desktop\html\final\monthly-stays.jpg" alt="Monthly stays" />
+          </a>
+          <p>Monthly stays</p>
+          <p>Make Airbnb your home, for stays of a month or longer.</p>
+        </div>
+        <div>
+          <a href="https://www.airbnb.com/openhomes/covid19relief"/>
+            <img src="C:\Users\Rares\Desktop\html\final\frontline-stays.jpg" alt="Frontline stays" />
+          </a>
+          <p>Frontline stays</p>
+          <p>Find or provide accommodation for COVID-19 responders.</p>
+        </div>
+      </div>
+ </main>
+</body>
+</html>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

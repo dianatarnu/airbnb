@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Vacation Rentals, Homes, Experiences & Places - Airbnb</title>
+  <link rel="stylesheet" href="C:\Users\Rares\Desktop\it\html\final\stylesheet.css">
+</head>
+
+<body>
+  <div id="policies">
+    <p>
+      Get the latest on our COVID-19 response and cancellation policies.
+      <a href="https://www.airbnb.com/resources/hosting-homes/t/coronavirus-updates-34">Learn more</a>
+    </p>
+  </div>
+
+  <nav>
+    <div class="menu">
+      <img src="C:\Users\Rares\Desktop\it\html\final\sigla.jpg" alt="Airbnb" height="65" width="auto" />
+      <div class="bar">
+        <div id="dropdown">
+          <button class="button1" onmouseover="showMenu()" onmouseout="hideMenu()"><img id="img" src="C:\Users\Rares\Desktop\it\html\final\globe.png"
+              alt="globe" height="20" width="auto" />
+          <div id="globalizationMennu" class="globMenu">
+            <a href="https://www.airbnb.com/account-settings/language">English (US)</a>
+            <a href="https://www.airbnb.com/account-settings/currency">lei RON</a>
+          </div>
+        </button>
+
+        </div>
+        <button class="button1" onclick="window.location.href = 'https://www.airbnb.com/host/homes';">Host your
+          home</button>
+        <button class="button1" onclick="window.location.href = 'https://www.airbnb.com/d/onlinehost';">Host an
+          experience</button>
+        <button class="button1" onclick="window.location.href = 'https://www.airbnb.com/help/home';">Help</button>
+        <button class="button1" onclick="window.location.href = 'https://www.airbnb.com/login';">Log In</button>
+        <button id="button1" onclick="window.location.href = 'https://www.airbnb.com/signup_login';">Sign Up</button>
+      </div>
+    </div>
+    <div class="tab">
+      <button class="tabButton" onclick="changeTab(event,'places')">Places to stay</button>
+      <button class="tabButton" onclick="changeTab(event,'experiences')">Experiences</button>
+      <button class="tabButton" onclick="window.location.href='https://www.airbnb.com/s/experiences/online';">Online
+        Experiences<span id="new">New</span></button>
+    </div>
+
+    <form id="places" class="tabContent">
+      <div class="border">
+        <label for="location">Location</label>
+        <br>
+        <input type="text" placeholder="Where are you going?">
+        <br>
+      </div>
+      <div class="vl"></div>
+      <div class="border">
+        <label for="Check In/Check Out">Check In / Check Out</label><br>
+        <input type="text" placeholder="Add dates">
+        <br>
+      </div>
+      <div class="vl"></div>
+      <div class="border">
+        <label for="Guests">Guests</label><br>
+        <input type="text" # placeholder="Add guests">
+        <br>
+      </div>
+      <button class="border" id="search">Search</button>
+    </form>
+
+    <form id="experiences" class="tabContent" style="display: none;">
+      <div class="border">
+        <label for="location">Location</label>
+        <br>
+        <input type="text" placeholder="Where are you going?">
+        <br>
+      </div>
+      <div class="vl"></div>
+      <div class="border">
+        <label for="Date">Date</label><br>
+        <input type="text" placeholder="Add when you want to go">
+        <br>
+      </div>
+      <button class="border" id="search">Search</button>
+    </form>
+  </nav>
+
+  <main>
+    <h1 id="subtitle">We may be apart, but we'll get through this together.</h1>
+    <div id="article">
+      <div class="photo" id="photoRight">
+        <a href="https://www.airbnb.com/s/experiences/online">
+          <img src="https://a0.muscache.com/im/pictures/923664c7-45f6-4ff0-8891-11cb6df25a66.jpg?aki_policy=x_large"
+            alt="Online experiences" />
+        </a>
+        <p>Online Experiences</p>
+        <p>Unique activities we can do together, led by a world of hosts.</p>
+      </div>
+      <div class="photo" id="photoRight">
+        <a
+          href="https://www.airbnb.com/s/homes?refinement_paths%5B%5D=%2Fhomes%2Fsection%2FNEARBY_LONG_TERM_STAY_LISTINGS&search_type=section_navigation">
+          <img src="https://a0.muscache.com/im/pictures/56e33ab9-d581-4333-be11-69286231cee5.jpg?aki_policy=x_large"
+            alt="Monthly stays" />
+        </a>
+        <p>Monthly stays</p>
+        <p>Make Airbnb your home, for stays of a month or longer.</p>
+      </div>
+      <div class="photo">
+        <a href="https://www.airbnb.com/openhomes/covid19relief" />
+        <img src="https://a0.muscache.com/im/pictures/630fcb0e-4beb-4cc8-a5dd-a4b7488dc96c.jpg?aki_policy=x_large"
+          alt="Frontline stays" />
+        </a>
+        <p>Frontline stays</p>
+        <p>Find or provide accommodation for COVID-19 responders.</p>
+      </div>
+    </div>
+  </main>
+
+  <section id="black">
+    <div class="explore">
+      <div>
+        <h1>Introducing Online Experiences</h1>
+        <p>Now you can meet people all over the world while trying something new.
+          Join live, interactive video sessions led by expert hosts—all without leaving home.
+        </p>
+      </div>
+      <button
+        onclick="window.location.href='https://www.airbnb.com/s/experiences?click_referer=t%3ASEE_ALL%7Csid%3Af977f683-80fb-46a9-9e96-3d0e83e86af8&refinement_paths%5B%5D=%2Fexperiences%2FKG%2FTag%3A6951&last_search_session_id=f977f683-80fb-46a9-9e96-3d0e83e86af8&search_type=unknown';">Explore
+        all</button>
+    </div>
+
+    <div class="wrapper">
+      <div class="grid-item item1">
+        <a href="https://www.airbnb.com/experiences/1652939">
+          <img src="https://a0.muscache.com/im/pictures/0049c173-7313-42c5-9330-543ed4cb8d7d.jpg?im_w=480"
+            alt="muscache" width="100%" height="auto" />
+        </a>
+        <p>Mix secret sangria with Pedro from Lisbon</p>
+      </div>
+      <div class="grid-item item2">
+        <a href="https://www.airbnb.com/experiences/1658424">
+          <img src="https://a0.muscache.com/im/pictures/5bf46c77-4312-41b6-b9ad-66db5bbadd27.jpg?im_w=320" alt="relax"
+            width="100%" height="auto" />
+        </a>
+        <p>Stretch.Breath.Relax.Yoga class with friends.</p>
+      </div>
+      <div class="grid-item item3">
+        <a href="https://www.airbnb.com/experiences/673724">
+          <img src="https://a0.muscache.com/im/pictures/5bd2705a-a565-426e-b928-f2a2b581e717.jpg?im_w=320"
+            alt="meditate" width="100%" height="auto" />
+        </a>
+        <p>Meditate to music with Janice from Amsterdam</p>
+      </div>
+      <div class="grid-item item4">
+        <a href="https://www.airbnb.com/experiences/1659111">
+          <img src="https://a0.muscache.com/im/pictures/af46112a-b342-45bb-89b0-57fce44e110c.jpg?im_w=480" alt="support"
+            width="100%" height="auto" />
+        </a>
+        <p>Support African penguins by drawing with Jon</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="host">
+    <div>
+      <h1>Host a hero: help up house frontline responders around the world</h1>
+      <button onclick="window.location.href='https://www.airbnb.com/openhomes/covid19relief';">Get involved</button>
+    </div>
+    <p>With frontline stays, Airbnb is partnering with our hosts to connect 100,000 healthcare providers,
+      relief workers, and first responders with places to stay that allow them to be close to their patients
+      - and safely distanced from their own families.</p>
+  </section>
+
+  <section class="inform">
+    <h1>Stay informed</h1>
+    <table>
+      <tr class="category">
+        <th>For guests</th>
+        <th>For hosts</th>
+        <th>For COVID-19 responders</th>
+        <th>More</th>
+      </tr>
+      <tr class="category-content">
+        <th>
+          <a href="https://www.airbnb.com/resources/hosting-homes/t/coronavirus-updates-34"><span>Updates for
+              travel</span><br> What you should know</a>
+        </th>
+        <th class="category-content">
+          <a href="https://www.airbnb.com/resources/hosting-homes/t/ceo-updates-35"><span>Message form Brian
+              Chesky</span><br>Hear from our CEO</a>
+        </th>
+        <th>
+          <a href="https://www.airbnb.com/openhomes/covid19relief"><span>Frontline stays</span><br>Learn about our
+            program</a>
+        </th>
+        <th>
+          <a href="https://news.airbnb.com/en-us/?_ga=2.217217878.1713747832.1588955949-1171263014.1588955949"><span>Newsroom</span><br>Latest
+            announcements</a>
+        </th>
+      </tr>
+      <tr class="category-content">
+        <th>
+          <a
+            href="https://www.airbnb.com/help/article/2701/extenuating-circumstances-policy-and-the-coronavirus-covid19"><span>Cancellation
+              options</span><br>Learn what's covered</a>
+        </th>
+        <th>
+          <a href="https://www.airbnb.com/resources/hosting-homes/t/coronavirus-updates-34"><span>Resources for
+              hosting</span><br>What's impacted by COVID-19</a>
+        </th>
+        <th>
+          <a href="https://www.airbnb.com/covid19relief-guests"><span>Sign up</span><br>Check for hosting options</a>
+        </th>
+        <th id="no-border">
+          <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019"><span>World Health
+              Organization</span><br>Education and updates</a>
+        </th>
+      </tr>
+      <tr class="category-content no-border">
+        <th>
+          <a href="https://www.airbnb.com/help/home"><span>Help Center</span><br>Get support</a>
+        </th>
+        <th>
+          <a href="https://www.airbnb.com/openhomes/covid19relief"><span>Providing frontline stays</span><br>Learn how
+            to help</a>
+        </th>
+        <th>
+          <a href="https://www.airbnb.com/openhomes/covid19relief?donate"><span>Make a donation</span><br>Support
+            nonprofit organizations</a>
+        </th>
+      </tr>
+    </table>
+  </section>
+
+  <section class="future-trips">
+    <h1>Destinations for future trips</h1>
+    <table>
+      <tr class="destinations">
+        <th><a href="https://www.airbnb.com/s/San-Francisco--CA">San Francisco</th>
+        <th><a href="https://www.airbnb.com/s/Los-Angeles--CA">Los Angeles</a></th>
+        <th><a href="https://www.airbnb.com/s/New-York--NY">New York</a></th>
+        <th><a href="https://www.airbnb.com/s/Seattle--WA">Seattle</a></th>
+      </tr>
+      <tr class="destinations">
+        <th><a href="https://www.airbnb.com/s/Denver--CO">Denver</th>
+        <th><a href="https://www.airbnb.com/s/Washington--DC">Washington DC</a></th>
+        <th><a href="https://www.airbnb.com/s/Phoenix--AZ">Phoenix</a></th>
+        <th><a href="https://www.airbnb.com/s/Austin--TX">Austin</a></th>
+      </tr>
+      <tr class="destinations" id="tunderline">
+        <th><a href="https://www.airbnb.com/s/Houston--TX">Huston</th>
+        <th><a href="https://www.airbnb.com/s/New-Orleans--LA">New Orleans</a></th>
+        <th><a href="https://www.airbnb.com/s/Boston--MA">Boston</a></th>
+        <th><a href="https://www.airbnb.com/s/Miami--FL">Miami</a></th>
+      </tr>
+    </table>
+  </section>
+
+  <hr>
+
+  <section class="info">
+    <ul>
+      <li>ABOUT</li>
+      <li><a href="https://www.airbnb.com/diversity">Diversity & Belonging</a></li>
+      <li><a href="https://www.airbnb.com/d/accessibility">Accessibility</a></li>
+      <li><a href="https://www.airbnb.com/trust">Trust & Safety</a></li>
+      <li><a href="https://www.airbnbcitizen.com/?utm_source=airbnb&utm_medium=footer&utm_campaign=product">Airbnb
+          Citizen</a></li>
+      <li><a href="https://news.airbnb.com/">Newsroom</a></li>
+    </ul>
+    <ul>
+      <li>COMMUNITY</li>
+      <li><a href="https://www.airbnb.com/magazine">Airbnb Magazine</a></li>
+      <li><a href="https://www.airbnb.com/work?s=footer">Airbnb for Work</a></li>
+      <li><a href="https://www.airbnb.com/invite?r=6">Invite friends</a></li>
+      <li><a
+          href="https://www.airbnb.com/login?redirect_params[action]=redeem&redirect_params[controller]=gift_credit_v3&redirect_params[s]=footer">Gift
+          cards</a></li>
+      <li><a href="https://careers.airbnb.com/">Careers</a></li>
+    </ul>
+    <ul>
+      <li>HOST</li>
+      <li><a href="https://www.airbnb.com/host/homes?from_footer=1">Host your home</a></li>
+      <li><a href="https://www.airbnb.com/host/experiences?from_footer=1">Host an experience</a></li>
+      <li><a href="https://www.airbnb.com/host/experiences?from_footer=1">Responsible hosting</a></li>
+      <li><a href="https://www.airbnb.com/openhomes?from_footer=1">Open Homes</a></li>
+      <li><a href="https://www.airbnb.com/d/olympics">Olympics</a></li>
+      <li><a href="https://www.airbnb.com/resources/hosting-homes">Resource Center</a></li>
+    </ul>
+    <ul>
+      <li>SUPPORT</li>
+      <li><a href="https://www.airbnb.com/help/home">Help Center</a></li>
+      <li><a href="https://www.airbnb.com/neighbors">Neighborhood Support</a></li>
+    </ul>
+  </section>
+
+  <footer>
+    <div class="flex">
+      <p>© 2020 Airbnb, Inc. All rights reserved<span>&#8226</span></p>
+      <a href="https://www.airbnb.com/terms/privacy_policy">Privacy<span>&#8226</span></a>
+      <a href="https://www.airbnb.com/terms">Terms<span>&#8226</span></a>
+      <a href="https://www.airbnb.com/sitemaps/v2">Sitemap</a>
+    </div>
+
+
+    <div class="flex icon">
+      <ul>
+        <li class="bott">
+          <a href="https://www.airbnb.com/account-settings/language"></a>English (US)</a>
+        </li>
+        <li class="bott">
+          <a href="https://www.airbnb.com/account-settings/currency">lei RON</a>
+        </li>
+        <ul id="social">
+          <li>
+            <a href="https://www.facebook.com/airbnb">
+              <img src="https://findicons.com/files/icons/2354/dusseldorf/32/facebook.png" alt="facebook" height="25"
+                width="auto">
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/airbnb">
+              <img src="https://cdn3.iconfinder.com/data/icons/picons-social/57/03-twitter-128.png" alt="twitter"
+                height="25" width="auto">
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/airbnb/">
+              <img src="https://cdn3.iconfinder.com/data/icons/picons-social/57/38-instagram-128.png" alt="instagram"
+                height="25" width="auto">
+            </a>
+          </li>
+        </ul>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="C:\Users\Rares\Desktop\it\html\final\javascript.js"></script>
+</body>
+
+</html>
